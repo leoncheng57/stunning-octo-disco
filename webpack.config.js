@@ -15,8 +15,6 @@ const config = {
       filename: '[name].js'
     },
     devServer: {
-        hot: true,
-        inline: true,
         port: 3000,
     },
     module: {
@@ -26,7 +24,6 @@ const config = {
         new LiveReloadPlugin({
             appendScriptTag: true
         }),
-        new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/index.pug'
