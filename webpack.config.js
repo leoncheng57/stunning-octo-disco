@@ -17,11 +17,16 @@ const config = {
       rules: [pug]
     },
     plugins: [
-      new HtmlWebpackPlugin({
-        filename: 'index.html',
-        template: 'src/index.pug',
-        inject: false
-      })
-   ]
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: 'src/index.pug',
+            inject: false
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'projects.html',
+            template: 'src/projects.pug',
+            inject: false
+        })
+    ]
 };
 module.exports = config;
