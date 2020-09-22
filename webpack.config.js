@@ -37,6 +37,21 @@ const scss = {
     ]
 }
 
+const imgs = {
+    test: /\.(png|jpe?g|gif|svg)$/,
+    use: [
+        {
+            loader: "file-loader",
+            options: {
+                outputPath: 'images'
+            }
+        }
+    ]
+}
+
+
+
+
 const config = {
     entry: './src/app.js',
     output: {
@@ -47,7 +62,7 @@ const config = {
         port: 3000,
     },
     module: {
-      rules: [pug, js, scss]
+      rules: [pug, js, scss, imgs]
     },
     plugins: [
         new LiveReloadPlugin({
@@ -56,7 +71,6 @@ const config = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/index.pug',
-            inject: true
         }),
         new HtmlWebpackPlugin({
             filename: 'projects.html',
