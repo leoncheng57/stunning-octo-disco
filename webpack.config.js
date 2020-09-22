@@ -55,7 +55,8 @@ const config = {
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: 'src/index.pug'
+            template: 'src/index.pug',
+            inject: true
         }),
         new HtmlWebpackPlugin({
             filename: 'projects.html',
