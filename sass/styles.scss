@@ -5,10 +5,13 @@ $light-sea-green: #3cbbb1ff;
 $fern-green: #607744ff;
 $light-blue: lightblue;
 
+
+$font-family: "Source Sans Pro", Helvetica, sans-serif;
+
 body {
     box-sizing: border-box;
-    background-size: 100vw 100vh;
     margin: 0;
+    font-family: $font-family;
 }
 
 #main {
