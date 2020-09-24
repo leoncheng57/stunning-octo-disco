@@ -1,17 +1,23 @@
+$space-cadet: #212844ff;
+$paradise-pink: #ee4266ff;
+$silver-sand: #c4cbcaff;
+$light-sea-green: #3cbbb1ff;
+$fern-green: #607744ff;
+$light-blue: lightblue;
+
 body {
     box-sizing: border-box;
-    background-image: url("../images/sample.jpg");
     background-size: 100vw 100vh;
+    margin: 0;
 }
 
-p {
-    a {
-        background-color: pink;
-        text-decoration: none;
-        color: green;
-    }
+#main {
+    margin: 0;
 }
 
-.fooclass {
-    background-color: lightblue;
+#bio {
+    background-color: $space-cadet;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
 }
