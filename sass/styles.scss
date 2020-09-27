@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: $font-family;
+    background-color: $silver-sand;
 }
 
 #main {
@@ -21,6 +22,15 @@ body {
 #bio {
     background-color: $space-cadet;
     color: white;
+}
+
+.inner { 
     padding: 20px;
     margin: 10px 0;
+}
+.section-title {
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
 }
