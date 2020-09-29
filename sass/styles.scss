@@ -1,3 +1,5 @@
+@import 'banner';
+
 $space-cadet: #212844ff;
 $paradise-pink: #ee4266ff;
 $silver-sand: #c4cbcaff;
@@ -28,9 +30,8 @@ body {
     padding: 20px;
     margin: 10px 0;
 }
-.section-title {
-    padding: 20px;
-    margin: 10px;
-    font-size: 1.5em;
+
+h1 {
+    font-size: 2.5em;
     font-weight: 700;
 }
