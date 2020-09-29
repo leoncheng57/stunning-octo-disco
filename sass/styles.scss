@@ -1,14 +1,8 @@
+@import 'variables';
+@import 'fonts';
+
 @import 'banner';
 
-$space-cadet: #212844ff;
-$paradise-pink: #ee4266ff;
-$silver-sand: #c4cbcaff;
-$light-sea-green: #3cbbb1ff;
-$fern-green: #607744ff;
-$light-blue: lightblue;
-
-
-$font-family: "Source Sans Pro", Helvetica, sans-serif;
 
 body {
     box-sizing: border-box;
@@ -17,11 +11,11 @@ body {
     background-color: $silver-sand;
 }
 
-#main {
+#wrapper {
     margin: 0;
 }
 
-#bio {
+#main {
     background-color: $space-cadet;
     color: white;
 }
@@ -31,7 +25,3 @@ body {
     margin: 10px 0;
 }
 
-h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-}
